@@ -106,3 +106,19 @@ header, .hero {
 footer {
     text-align: center;
 }
+
+.my-projects h2 {
+    text-align: center;
+}
+
+.project {
+    border: 4px solid #223e49;
+    border-radius: 30px;
+    padding: 12px;
+    margin: 16px;
+}
+
+.project h3 {
+    color: #F4A261;
+    margin-top: 0;
+}
