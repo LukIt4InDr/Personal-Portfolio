@@ -134,3 +134,24 @@ footer {
 .contact-info {
     margin: 16px;
 }
+
+@media (width > 520px) {
+    header {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 24px;
+    }
+
+    header span {
+        flex-direction: row;
+    }
+
+    .hero {
+        padding: 10vh 0;
+    }
+
+    .developer-career {
+        display: grid;
+    }
+}
