@@ -122,3 +122,11 @@ footer {
     color: #F4A261;
     margin-top: 0;
 }
+
+.articles h2 {
+    text-align: center;
+}
+
+.articles h3 {
+    margin: 16px;
+}
