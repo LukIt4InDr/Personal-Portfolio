@@ -56,20 +56,32 @@ header, .hero {
 
 .developer-career h3 {
     text-align: center;
+    margin: 0;
+    padding: 16px 16px;
+    background-color: #264653;
+}
+
+.projects {
+    background: #223e49;
 }
 
 .projects ul {
     text-align: center;
     list-style-type: none;
+    margin: 0;
     padding: 0;
 }
 
 .projects a {
     display: block;
     color: #E3EEF2;
-    padding: 16px 0;
-    background: #223e49;
+    padding: 16px 16px;
     border-top: 1px solid #264653;
+    border-right: 1px solid #264653;
+}
+
+.work-experience {
+    background: #223e49;
 }
 
 .work-experience .work {
@@ -153,5 +165,14 @@ footer {
 
     .developer-career {
         display: grid;
+        grid-template-columns: 1fr 1.5fr 1.25fr;
+    }
+
+    .developer-career h3, a {
+        text-align: start;
+    }
+
+    .review-container {
+        flex-direction: row;
     }
 }
