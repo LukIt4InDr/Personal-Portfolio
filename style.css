@@ -176,8 +176,12 @@ footer {
         flex-direction: row;
     }
 
-    .my-projects .container {
+    .my-projects .projects-container {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .articles .articles-container {
+        display: flex;
     }
 }
