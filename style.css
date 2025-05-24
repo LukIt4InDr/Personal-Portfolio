@@ -147,6 +147,16 @@ footer {
     margin: 16px;
 }
 
+form label {
+    display: block;
+}
+
+form fieldset {
+    border: 4px solid #223e49;
+    border-radius: 30px;
+    padding: 16px;
+}
+
 @media (width > 520px) {
     header {
         flex-direction: row;
